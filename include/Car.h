@@ -6,14 +6,16 @@
 using std::string;
 
 class Car{
-    private:
+    protected:
     string make;
     string model;
     int year;
 
     public:
-    Car(string make, string model, int year);
-    void displayCarInfo();
+    Car();
+    Car(string model);
+    Car(string model, string make, int year);
+    void displayInfo();
 };
 
 #endif

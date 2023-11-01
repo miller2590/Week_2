@@ -9,7 +9,7 @@ class SportsCar : public Car {
         double zeroToSixty;
     public:
         SportsCar(string make, string model, int year, int topSpeed, double zeroToSixty);
-        void displayCarInfo();
+        void displayInfo();
 };
 
 #endif

@@ -7,8 +7,8 @@ using std::endl;
 SportsCar::SportsCar(string make, string model, int year, int topSpeed, double zeroToSixty)
  : Car(make, model, year), topSpeed(topSpeed), zeroToSixty(zeroToSixty) {};
 
- void SportsCar::displayCarInfo() {
-    Car::displayCarInfo();
+void SportsCar::displayInfo() {
+    Car::displayInfo();
     cout << "Top Speed: " << topSpeed << "\n";
     cout << "Zero to Sixty: " << zeroToSixty << endl;
- };
+};
