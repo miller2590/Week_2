@@ -14,11 +14,15 @@
 #include "../include/Car.h"
 #include "../include/SportsCar.h"
 #include "../include/Truck.h"
+#include <memory>
+
+using std::shared_ptr;
 
 int main() {
     //SportsCar and Truck object created with overloading constructors
-    class SportsCar charger("Charger", "Dodge", 1979, 190, 3.2);
-    class Truck mack("Mack", 500, 600);
+    class SportsCar* charger = new SportsCar("Charger", "Dodge", 1979, 190, 3.2); //Charger created with pointer
+    //Mack created with shared/smart pointer
+    shared_ptr<Truck> mack = std::make_shared<Truck>("Mack", 500, 600);
 
     //SportsCar object created with mutators
     class SportsCar corvette;
@@ -34,13 +38,16 @@ int main() {
     kenworth.setCargoSize(500);
     kenworth.setMaxCargoWeight(800);
 
-    //Display info for overloaded objects
-    charger.displayInfo();
-    mack.displayInfo();
+    //Display info for overloaded/pointer objects
+    charger->displayInfo();
+    mack->displayInfo();
 
     //Display info for mutated objects
     corvette.displayInfo();
     kenworth.displayInfo();
+
+    //Charger memory deallocation
+    delete charger;
 
     return 0;
 }
