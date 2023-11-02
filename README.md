@@ -7,6 +7,7 @@ The Car Class Project is a C++ program that demonstrates various object-oriented
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Data] (#data)
 - [Contributing](#contributing)
 
 
@@ -35,6 +36,20 @@ To get started with this project, you will need:
 - g++ -o .\bin\build .\src\Main.cpp .\src\Car.cpp .\src\SportsCar.cpp .\src\Truck.cpp
 - .\bin\build.exe
 ```
+
+## Data Used
+
+Below is a summary of the data used for creating and displaying objects of the SportsCar and Truck classes in the C++ program.
+
+| Attribute            | Charger (SportsCar) | Mack (Truck)    | Corvette (SportsCar) | Kenworth (Truck) |
+|----------------------|----------------------|-----------------|----------------------|-------------------|
+| Make                 | Dodge                | Mack            | Chevy                | Kenworth          |
+| Model                | Charger              | Mack            | Corvette             | Kenworth          |
+| Year                 | 1979                 | -               | 1969                 | -                 |
+| Top Speed            | 190 mph              | -               | 205 mph              | -                 |
+| Zero to Sixty        | 3.2 s                | -               | 3.1 s                | -                 |
+| Cargo Size (Cu. Ft.) | -                    | 4557 Cu. Ft.    | -                    | 3448 Cu. Ft.      |
+| Max Cargo Weight     | -                    | 40,000 lbs      | -                    | 25,000 lbs        |
 
 ## Contributing
 
