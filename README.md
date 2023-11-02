@@ -34,6 +34,7 @@ To get started with this project, you will need:
 ```bash
 - g++ -o .\bin\build .\src\Main.cpp .\src\Car.cpp .\src\SportsCar.cpp .\src\Truck.cpp
 - .\bin\build.exe
+```
 
 ## Contributing
 
