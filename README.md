@@ -7,7 +7,7 @@ The Car Class Project is a C++ program that demonstrates various object-oriented
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Data] (#data)
+- [Data](#data)
 - [Contributing](#contributing)
 
 
