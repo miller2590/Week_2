@@ -22,7 +22,7 @@ int main() {
     //SportsCar and Truck object created with overloading constructors
     class SportsCar* charger = new SportsCar("Charger", "Dodge", 1979, 190, 3.2); //Charger created with pointer
     //Mack created with shared/smart pointer
-    shared_ptr<Truck> mack = std::make_shared<Truck>("Mack", 500, 600);
+    shared_ptr<Truck> mack = std::make_shared<Truck>("Mack", 4557, 40000);
 
     //SportsCar object created with mutators
     class SportsCar corvette;
@@ -34,9 +34,9 @@ int main() {
 
     //Truck object created with mutators
     class Truck kenworth;
-    kenworth.setModel("Hauler");
-    kenworth.setCargoSize(500);
-    kenworth.setMaxCargoWeight(800);
+    kenworth.setModel("Kenworth");
+    kenworth.setCargoSize(3448);
+    kenworth.setMaxCargoWeight(25000);
 
     //Display info for overloaded/pointer objects
     charger->displayInfo();
