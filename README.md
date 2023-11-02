@@ -37,7 +37,7 @@ To get started with this project, you will need:
 - .\bin\build.exe
 ```
 
-## Data Used
+## Data 
 
 Below is a summary of the data used for creating and displaying objects of the SportsCar and Truck classes in the C++ program.
 
