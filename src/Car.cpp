@@ -5,6 +5,8 @@
  * a generic vehicle and provides functionality to set and retrieve its attributes, such as
  * make, model, and year. It also includes a display method to print the information about
  * the car to the console.
+ * 
+ * @note Updated to include friend function implimentation
  *
  * @author Gage Miller
  */
@@ -26,6 +28,11 @@ Car::Car(string model) : model(model){};
 //Overload constructor #2 which allows for model, make, and year to be entered
 Car::Car(string model, string make, int year)
 : model(model), make(make), year(year) {};
+
+//**Upated** Friend function to display Car make and model
+void displayMakeModel(const Car& car) {
+    cout << "Make: " << car.make << " Model: " << car.model << "\n";
+};
 
 //Method for displaying car info
 void Car::displayInfo() {

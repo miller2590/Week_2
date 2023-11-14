@@ -8,6 +8,8 @@
  * The program showcases OOP concepts such as class inheritance, constructor overloading,
  * and encapsulation.
  *
+ * @note Updated to impliment friend function from Car class
+ * 
  * @author Gage Miller
  */
 
@@ -45,6 +47,9 @@ int main() {
     //Display info for mutated objects
     corvette.displayInfo();
     kenworth.displayInfo();
+
+    //**Updated** Calling friend function on corvette object
+    displayMakeModel(corvette);
 
     //Charger memory deallocation
     delete charger;
