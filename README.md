@@ -32,11 +32,11 @@ To get started with this project, you will need:
 3. The program will create instances of Car, SportsCar, and Truck classes, set their attributes, and display their information.
 
 ```bash
-- g++ -o .\bin\build .\src\Main.cpp .\src\Car.cpp .\src\SportsCar.cpp .\src\Truck.cpp
+g++ -o .\bin\build .\src\Main.cpp .\src\Car.cpp .\src\SportsCar.cpp .\src\Truck.cpp
 ```
 
 ```bash
-- .\bin\build.exe
+.\bin\build.exe
 ```
 
 ## Data
